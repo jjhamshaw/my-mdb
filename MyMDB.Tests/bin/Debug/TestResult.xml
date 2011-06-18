@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!--This file represents the results of running a test suite-->
+<test-results name="C:\dev\MyMDB\MyMDB.Tests\bin\Debug\MyMDB.Tests.dll" total="3" errors="0" failures="0" not-run="0" inconclusive="0" ignored="0" skipped="0" invalid="0" date="2011-06-12" time="17:39:31">
+  <environment nunit-version="2.5.10.11092" clr-version="2.0.50727.4959" os-version="Microsoft Windows NT 6.1.7600.0" platform="Win32NT" cwd="C:\Program Files (x86)\NUnit 2.5.10\bin\net-2.0" machine-name="JONHAMSHAW-PC" user="jonhamshaw" user-domain="jonhamshaw-PC" />
+  <culture-info current-culture="en-GB" current-uiculture="en-US" />
+  <test-suite type="Assembly" name="C:\dev\MyMDB\MyMDB.Tests\bin\Debug\MyMDB.Tests.dll" executed="True" result="Success" success="True" time="0.876" asserts="0">
+    <results>
+      <test-suite type="Namespace" name="MyMDB" executed="True" result="Success" success="True" time="0.855" asserts="0">
+        <results>
+          <test-suite type="Namespace" name="Tests" executed="True" result="Success" success="True" time="0.855" asserts="0">
+            <results>
+              <test-suite type="TestFixture" name="DisplayingPageLinks_Tests" executed="True" result="Success" success="True" time="0.841" asserts="0">
+                <results>
+                  <test-case name="MyMDB.Tests.DisplayingPageLinks_Tests.Can_Generate_Links_To_Other_Pages" executed="True" result="Success" success="True" time="0.267" asserts="1" />
+                  <test-case name="MyMDB.Tests.DisplayingPageLinks_Tests.Film_Lists_Include_Correct_Page_Numbers" executed="True" result="Success" success="True" time="0.551" asserts="4" />
+                </results>
+              </test-suite>
+              <test-suite type="TestFixture" name="FilmBrowsing_Tests" executed="True" result="Success" success="True" time="0.006" asserts="0">
+                <results>
+                  <test-case name="MyMDB.Tests.FilmBrowsing_Tests.Can_View_A_Single_Page_Of_Films" executed="True" result="Success" success="True" time="0.005" asserts="3" />
+                </results>
+              </test-suite>
+            </results>
+          </test-suite>
+        </results>
+      </test-suite>
+    </results>
+  </test-suite>
+</test-results>

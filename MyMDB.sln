@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyMDB", "MyMDB\MyMDB.csproj", "{66D6B709-00F5-41D1-A112-40767321A9FB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyMDB.Tests", "MyMDB.Tests\MyMDB.Tests.csproj", "{F2A1D085-F721-4326-908D-C4D877717593}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{66D6B709-00F5-41D1-A112-40767321A9FB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{66D6B709-00F5-41D1-A112-40767321A9FB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{66D6B709-00F5-41D1-A112-40767321A9FB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{66D6B709-00F5-41D1-A112-40767321A9FB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F2A1D085-F721-4326-908D-C4D877717593}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F2A1D085-F721-4326-908D-C4D877717593}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F2A1D085-F721-4326-908D-C4D877717593}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F2A1D085-F721-4326-908D-C4D877717593}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

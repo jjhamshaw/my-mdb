@@ -1,0 +1,148 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="9b98ed1c-e436-470d-b227-36c98bfea5c5" name="jonhamshaw@JONHAMSHAW-PC 2011-06-12 17:25:03" runUser="jonhamshaw-PC\jonhamshaw" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="Default Test Settings" id="61dcfad7-d66d-4717-8ca7-10e2d7115cf8">
+    <Deployment runDeploymentRoot="jonhamshaw_JONHAMSHAW-PC 2011-06-12 17_25_03">
+      <DeploymentItem filename="C:\dev\lib\Moq.4.0.10827\NET40\Moq.dll" />
+      <DeploymentItem filename="C:\dev\MyMDB\MyMDB\bin\MyMDB.dll" />
+      <DeploymentItem filename="C:\Program Files (x86)\NUnit 2.5.10\bin\net-2.0\framework\nunit.framework.dll" />
+    </Deployment>
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+  </TestSettings>
+  <Times creation="2011-06-12T17:25:03.5434100+01:00" queuing="2011-06-12T17:25:05.9225461+01:00" start="2011-06-12T17:25:06.1115569+01:00" finish="2011-06-12T17:25:06.8145971+01:00" />
+  <ResultSummary outcome="Completed">
+    <Counters total="17" executed="17" passed="17" error="0" failed="0" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="Index" storage="c:\dev\mymdb\mymdb.tests\bin\debug\mymdb.tests.dll" id="1e4194ea-cc8c-2ae8-c43e-30dd58e8cedd">
+      <Execution id="17bf003b-b9fa-4863-97e4-3e6bb2ea9cfc" />
+      <TestMethod codeBase="C:/dev/MyMDB/MyMDB.Tests/bin/Debug/MyMDB.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="MyMDB.Tests.Controllers.HomeControllerTest, MyMDB.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="Index" />
+    </UnitTest>
+    <UnitTest name="ChangePassword_Get_ReturnsView" storage="c:\dev\mymdb\mymdb.tests\bin\debug\mymdb.tests.dll" id="d9b5d108-cb78-f85c-3c03-8b7b5fb3fdfd">
+      <Execution id="3d97df14-aa0c-4b2f-ac0c-a5dffdcee17f" />
+      <TestMethod codeBase="C:/dev/MyMDB/MyMDB.Tests/bin/Debug/MyMDB.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="MyMDB.Tests.Controllers.AccountControllerTest, MyMDB.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="ChangePassword_Get_ReturnsView" />
+    </UnitTest>
+    <UnitTest name="Register_Post_ReturnsRedirectOnSuccess" storage="c:\dev\mymdb\mymdb.tests\bin\debug\mymdb.tests.dll" id="646a7dc3-9d0d-d851-2d3e-33fa9f57e42c">
+      <Execution id="719d0fd3-ccfc-45d3-a31d-9e3d58673a51" />
+      <TestMethod codeBase="C:/dev/MyMDB/MyMDB.Tests/bin/Debug/MyMDB.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="MyMDB.Tests.Controllers.AccountControllerTest, MyMDB.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="Register_Post_ReturnsRedirectOnSuccess" />
+    </UnitTest>
+    <UnitTest name="LogOn_Post_ReturnsRedirectOnSuccess_WithReturnUrl" storage="c:\dev\mymdb\mymdb.tests\bin\debug\mymdb.tests.dll" id="f91eec35-e244-430d-b67d-c860e87f63cd">
+      <Execution id="c669a049-6204-4a65-adde-44aaeef7113b" />
+      <TestMethod codeBase="C:/dev/MyMDB/MyMDB.Tests/bin/Debug/MyMDB.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="MyMDB.Tests.Controllers.AccountControllerTest, MyMDB.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="LogOn_Post_ReturnsRedirectOnSuccess_WithReturnUrl" />
+    </UnitTest>
+    <UnitTest name="About" storage="c:\dev\mymdb\mymdb.tests\bin\debug\mymdb.tests.dll" id="2496d727-f570-ea06-f9b6-9123806c0e79">
+      <Execution id="78a8d9aa-918c-4b7f-8db6-5c20ad0c0c82" />
+      <TestMethod codeBase="C:/dev/MyMDB/MyMDB.Tests/bin/Debug/MyMDB.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="MyMDB.Tests.Controllers.HomeControllerTest, MyMDB.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="About" />
+    </UnitTest>
+    <UnitTest name="Register_Get_ReturnsView" storage="c:\dev\mymdb\mymdb.tests\bin\debug\mymdb.tests.dll" id="2ae6bbff-5bc3-9210-1f51-6683cbcd77ae">
+      <Execution id="216d81a4-7438-42a4-9ec2-59d696a0d6a5" />
+      <TestMethod codeBase="C:/dev/MyMDB/MyMDB.Tests/bin/Debug/MyMDB.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="MyMDB.Tests.Controllers.AccountControllerTest, MyMDB.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="Register_Get_ReturnsView" />
+    </UnitTest>
+    <UnitTest name="ChangePassword_Post_ReturnsViewIfChangePasswordFails" storage="c:\dev\mymdb\mymdb.tests\bin\debug\mymdb.tests.dll" id="2b98e69f-196b-1e63-0ad0-31fd2fbf9eb9">
+      <Execution id="37f5fe33-e63a-47ce-8d19-8771fcadb8bc" />
+      <TestMethod codeBase="C:/dev/MyMDB/MyMDB.Tests/bin/Debug/MyMDB.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="MyMDB.Tests.Controllers.AccountControllerTest, MyMDB.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="ChangePassword_Post_ReturnsViewIfChangePasswordFails" />
+    </UnitTest>
+    <UnitTest name="ChangePassword_Post_ReturnsViewIfModelStateIsInvalid" storage="c:\dev\mymdb\mymdb.tests\bin\debug\mymdb.tests.dll" id="67a6137e-5aae-7f17-e87b-b041395fe592">
+      <Execution id="53a0f874-ecac-4322-a694-ae0649d3d5f5" />
+      <TestMethod codeBase="C:/dev/MyMDB/MyMDB.Tests/bin/Debug/MyMDB.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="MyMDB.Tests.Controllers.AccountControllerTest, MyMDB.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="ChangePassword_Post_ReturnsViewIfModelStateIsInvalid" />
+    </UnitTest>
+    <UnitTest name="ChangePasswordSuccess_ReturnsView" storage="c:\dev\mymdb\mymdb.tests\bin\debug\mymdb.tests.dll" id="d2198007-dd4b-62ea-c69c-b93c31011aac">
+      <Execution id="c1f8664c-391e-496f-ad1a-f80a29844f8a" />
+      <TestMethod codeBase="C:/dev/MyMDB/MyMDB.Tests/bin/Debug/MyMDB.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="MyMDB.Tests.Controllers.AccountControllerTest, MyMDB.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="ChangePasswordSuccess_ReturnsView" />
+    </UnitTest>
+    <UnitTest name="Register_Post_ReturnsViewIfRegistrationFails" storage="c:\dev\mymdb\mymdb.tests\bin\debug\mymdb.tests.dll" id="a3303306-4ba4-a76c-f28f-9259aec7ec65">
+      <Execution id="5710e04a-5bf6-4333-8f83-a4c9d79fe08b" />
+      <TestMethod codeBase="C:/dev/MyMDB/MyMDB.Tests/bin/Debug/MyMDB.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="MyMDB.Tests.Controllers.AccountControllerTest, MyMDB.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="Register_Post_ReturnsViewIfRegistrationFails" />
+    </UnitTest>
+    <UnitTest name="ChangePassword_Post_ReturnsRedirectOnSuccess" storage="c:\dev\mymdb\mymdb.tests\bin\debug\mymdb.tests.dll" id="e8db9bbd-f107-7018-b428-a5b6e26ed7fe">
+      <Execution id="6fef61ee-847b-488d-814a-da2b12d8afc7" />
+      <TestMethod codeBase="C:/dev/MyMDB/MyMDB.Tests/bin/Debug/MyMDB.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="MyMDB.Tests.Controllers.AccountControllerTest, MyMDB.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="ChangePassword_Post_ReturnsRedirectOnSuccess" />
+    </UnitTest>
+    <UnitTest name="LogOn_Post_ReturnsViewIfModelStateIsInvalid" storage="c:\dev\mymdb\mymdb.tests\bin\debug\mymdb.tests.dll" id="92613ad5-641c-196f-0a08-a4d9af1b4b13">
+      <Execution id="f3cd3b22-bcd1-4578-8bca-9cdb186f3648" />
+      <TestMethod codeBase="C:/dev/MyMDB/MyMDB.Tests/bin/Debug/MyMDB.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="MyMDB.Tests.Controllers.AccountControllerTest, MyMDB.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="LogOn_Post_ReturnsViewIfModelStateIsInvalid" />
+    </UnitTest>
+    <UnitTest name="LogOn_Post_ReturnsViewIfValidateUserFails" storage="c:\dev\mymdb\mymdb.tests\bin\debug\mymdb.tests.dll" id="250c01e9-e817-2989-4606-75e947427bd1">
+      <Execution id="359e0647-141a-44e0-bcc4-a13a5308e3ba" />
+      <TestMethod codeBase="C:/dev/MyMDB/MyMDB.Tests/bin/Debug/MyMDB.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="MyMDB.Tests.Controllers.AccountControllerTest, MyMDB.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="LogOn_Post_ReturnsViewIfValidateUserFails" />
+    </UnitTest>
+    <UnitTest name="LogOff_LogsOutAndRedirects" storage="c:\dev\mymdb\mymdb.tests\bin\debug\mymdb.tests.dll" id="31509704-3327-1b33-552e-e0840b5a512c">
+      <Execution id="b402e07d-77fe-42c7-a515-bcfb50e23ee6" />
+      <TestMethod codeBase="C:/dev/MyMDB/MyMDB.Tests/bin/Debug/MyMDB.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="MyMDB.Tests.Controllers.AccountControllerTest, MyMDB.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="LogOff_LogsOutAndRedirects" />
+    </UnitTest>
+    <UnitTest name="LogOn_Post_ReturnsRedirectOnSuccess_WithoutReturnUrl" storage="c:\dev\mymdb\mymdb.tests\bin\debug\mymdb.tests.dll" id="875ad30e-54ea-67aa-a907-1dd30a818559">
+      <Execution id="8a1f9f64-5727-47a7-ae5b-6fdc086a6f43" />
+      <TestMethod codeBase="C:/dev/MyMDB/MyMDB.Tests/bin/Debug/MyMDB.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="MyMDB.Tests.Controllers.AccountControllerTest, MyMDB.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="LogOn_Post_ReturnsRedirectOnSuccess_WithoutReturnUrl" />
+    </UnitTest>
+    <UnitTest name="LogOn_Get_ReturnsView" storage="c:\dev\mymdb\mymdb.tests\bin\debug\mymdb.tests.dll" id="c9f23773-c978-cf59-8e42-eff3ac0bf0df">
+      <Execution id="c80d4807-11f8-4fb2-b080-588ee3be23c4" />
+      <TestMethod codeBase="C:/dev/MyMDB/MyMDB.Tests/bin/Debug/MyMDB.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="MyMDB.Tests.Controllers.AccountControllerTest, MyMDB.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="LogOn_Get_ReturnsView" />
+    </UnitTest>
+    <UnitTest name="Register_Post_ReturnsViewIfModelStateIsInvalid" storage="c:\dev\mymdb\mymdb.tests\bin\debug\mymdb.tests.dll" id="3632feab-366e-1e0a-abde-9d3ffb868835">
+      <Execution id="667f582e-e150-4c79-b96f-fa3f483e6f7a" />
+      <TestMethod codeBase="C:/dev/MyMDB/MyMDB.Tests/bin/Debug/MyMDB.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="MyMDB.Tests.Controllers.AccountControllerTest, MyMDB.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="Register_Post_ReturnsViewIfModelStateIsInvalid" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="1e4194ea-cc8c-2ae8-c43e-30dd58e8cedd" executionId="17bf003b-b9fa-4863-97e4-3e6bb2ea9cfc" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="2496d727-f570-ea06-f9b6-9123806c0e79" executionId="78a8d9aa-918c-4b7f-8db6-5c20ad0c0c82" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="250c01e9-e817-2989-4606-75e947427bd1" executionId="359e0647-141a-44e0-bcc4-a13a5308e3ba" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="2ae6bbff-5bc3-9210-1f51-6683cbcd77ae" executionId="216d81a4-7438-42a4-9ec2-59d696a0d6a5" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="2b98e69f-196b-1e63-0ad0-31fd2fbf9eb9" executionId="37f5fe33-e63a-47ce-8d19-8771fcadb8bc" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="31509704-3327-1b33-552e-e0840b5a512c" executionId="b402e07d-77fe-42c7-a515-bcfb50e23ee6" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="3632feab-366e-1e0a-abde-9d3ffb868835" executionId="667f582e-e150-4c79-b96f-fa3f483e6f7a" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="646a7dc3-9d0d-d851-2d3e-33fa9f57e42c" executionId="719d0fd3-ccfc-45d3-a31d-9e3d58673a51" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="67a6137e-5aae-7f17-e87b-b041395fe592" executionId="53a0f874-ecac-4322-a694-ae0649d3d5f5" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="875ad30e-54ea-67aa-a907-1dd30a818559" executionId="8a1f9f64-5727-47a7-ae5b-6fdc086a6f43" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="92613ad5-641c-196f-0a08-a4d9af1b4b13" executionId="f3cd3b22-bcd1-4578-8bca-9cdb186f3648" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="a3303306-4ba4-a76c-f28f-9259aec7ec65" executionId="5710e04a-5bf6-4333-8f83-a4c9d79fe08b" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="c9f23773-c978-cf59-8e42-eff3ac0bf0df" executionId="c80d4807-11f8-4fb2-b080-588ee3be23c4" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="d2198007-dd4b-62ea-c69c-b93c31011aac" executionId="c1f8664c-391e-496f-ad1a-f80a29844f8a" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="d9b5d108-cb78-f85c-3c03-8b7b5fb3fdfd" executionId="3d97df14-aa0c-4b2f-ac0c-a5dffdcee17f" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="e8db9bbd-f107-7018-b428-a5b6e26ed7fe" executionId="6fef61ee-847b-488d-814a-da2b12d8afc7" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="f91eec35-e244-430d-b67d-c860e87f63cd" executionId="c669a049-6204-4a65-adde-44aaeef7113b" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="17bf003b-b9fa-4863-97e4-3e6bb2ea9cfc" testId="1e4194ea-cc8c-2ae8-c43e-30dd58e8cedd" testName="Index" computerName="JONHAMSHAW-PC" duration="00:00:00.0215750" startTime="2011-06-12T17:25:06.1445588+01:00" endTime="2011-06-12T17:25:06.6425873+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="17bf003b-b9fa-4863-97e4-3e6bb2ea9cfc">
+    </UnitTestResult>
+    <UnitTestResult executionId="78a8d9aa-918c-4b7f-8db6-5c20ad0c0c82" testId="2496d727-f570-ea06-f9b6-9123806c0e79" testName="About" computerName="JONHAMSHAW-PC" duration="00:00:00.0003002" startTime="2011-06-12T17:25:06.6505878+01:00" endTime="2011-06-12T17:25:06.6575882+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="78a8d9aa-918c-4b7f-8db6-5c20ad0c0c82">
+    </UnitTestResult>
+    <UnitTestResult executionId="359e0647-141a-44e0-bcc4-a13a5308e3ba" testId="250c01e9-e817-2989-4606-75e947427bd1" testName="LogOn_Post_ReturnsViewIfValidateUserFails" computerName="JONHAMSHAW-PC" duration="00:00:00.0061833" startTime="2011-06-12T17:25:06.6605883+01:00" endTime="2011-06-12T17:25:06.6715890+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="359e0647-141a-44e0-bcc4-a13a5308e3ba">
+    </UnitTestResult>
+    <UnitTestResult executionId="216d81a4-7438-42a4-9ec2-59d696a0d6a5" testId="2ae6bbff-5bc3-9210-1f51-6683cbcd77ae" testName="Register_Get_ReturnsView" computerName="JONHAMSHAW-PC" duration="00:00:00.0005282" startTime="2011-06-12T17:25:06.6735891+01:00" endTime="2011-06-12T17:25:06.6785894+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="216d81a4-7438-42a4-9ec2-59d696a0d6a5">
+    </UnitTestResult>
+    <UnitTestResult executionId="37f5fe33-e63a-47ce-8d19-8771fcadb8bc" testId="2b98e69f-196b-1e63-0ad0-31fd2fbf9eb9" testName="ChangePassword_Post_ReturnsViewIfChangePasswordFails" computerName="JONHAMSHAW-PC" duration="00:00:00.0028630" startTime="2011-06-12T17:25:06.6815895+01:00" endTime="2011-06-12T17:25:06.6885899+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="37f5fe33-e63a-47ce-8d19-8771fcadb8bc">
+    </UnitTestResult>
+    <UnitTestResult executionId="b402e07d-77fe-42c7-a515-bcfb50e23ee6" testId="31509704-3327-1b33-552e-e0840b5a512c" testName="LogOff_LogsOutAndRedirects" computerName="JONHAMSHAW-PC" duration="00:00:00.0027847" startTime="2011-06-12T17:25:06.6905900+01:00" endTime="2011-06-12T17:25:06.6985905+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="b402e07d-77fe-42c7-a515-bcfb50e23ee6">
+    </UnitTestResult>
+    <UnitTestResult executionId="667f582e-e150-4c79-b96f-fa3f483e6f7a" testId="3632feab-366e-1e0a-abde-9d3ffb868835" testName="Register_Post_ReturnsViewIfModelStateIsInvalid" computerName="JONHAMSHAW-PC" duration="00:00:00.0113136" startTime="2011-06-12T17:25:06.7005906+01:00" endTime="2011-06-12T17:25:06.7165915+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="667f582e-e150-4c79-b96f-fa3f483e6f7a">
+    </UnitTestResult>
+    <UnitTestResult executionId="719d0fd3-ccfc-45d3-a31d-9e3d58673a51" testId="646a7dc3-9d0d-d851-2d3e-33fa9f57e42c" testName="Register_Post_ReturnsRedirectOnSuccess" computerName="JONHAMSHAW-PC" duration="00:00:00.0009259" startTime="2011-06-12T17:25:06.7185916+01:00" endTime="2011-06-12T17:25:06.7255920+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="719d0fd3-ccfc-45d3-a31d-9e3d58673a51">
+    </UnitTestResult>
+    <UnitTestResult executionId="53a0f874-ecac-4322-a694-ae0649d3d5f5" testId="67a6137e-5aae-7f17-e87b-b041395fe592" testName="ChangePassword_Post_ReturnsViewIfModelStateIsInvalid" computerName="JONHAMSHAW-PC" duration="00:00:00.0004093" startTime="2011-06-12T17:25:06.7275922+01:00" endTime="2011-06-12T17:25:06.7325924+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="53a0f874-ecac-4322-a694-ae0649d3d5f5">
+    </UnitTestResult>
+    <UnitTestResult executionId="8a1f9f64-5727-47a7-ae5b-6fdc086a6f43" testId="875ad30e-54ea-67aa-a907-1dd30a818559" testName="LogOn_Post_ReturnsRedirectOnSuccess_WithoutReturnUrl" computerName="JONHAMSHAW-PC" duration="00:00:00.0004974" startTime="2011-06-12T17:25:06.7355926+01:00" endTime="2011-06-12T17:25:06.7405929+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="8a1f9f64-5727-47a7-ae5b-6fdc086a6f43">
+    </UnitTestResult>
+    <UnitTestResult executionId="f3cd3b22-bcd1-4578-8bca-9cdb186f3648" testId="92613ad5-641c-196f-0a08-a4d9af1b4b13" testName="LogOn_Post_ReturnsViewIfModelStateIsInvalid" computerName="JONHAMSHAW-PC" duration="00:00:00.0003678" startTime="2011-06-12T17:25:06.7425930+01:00" endTime="2011-06-12T17:25:06.7475933+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="f3cd3b22-bcd1-4578-8bca-9cdb186f3648">
+    </UnitTestResult>
+    <UnitTestResult executionId="5710e04a-5bf6-4333-8f83-a4c9d79fe08b" testId="a3303306-4ba4-a76c-f28f-9259aec7ec65" testName="Register_Post_ReturnsViewIfRegistrationFails" computerName="JONHAMSHAW-PC" duration="00:00:00.0005855" startTime="2011-06-12T17:25:06.7495934+01:00" endTime="2011-06-12T17:25:06.7555938+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="5710e04a-5bf6-4333-8f83-a4c9d79fe08b">
+    </UnitTestResult>
+    <UnitTestResult executionId="c80d4807-11f8-4fb2-b080-588ee3be23c4" testId="c9f23773-c978-cf59-8e42-eff3ac0bf0df" testName="LogOn_Get_ReturnsView" computerName="JONHAMSHAW-PC" duration="00:00:00.0003207" startTime="2011-06-12T17:25:06.7565938+01:00" endTime="2011-06-12T17:25:06.7655943+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="c80d4807-11f8-4fb2-b080-588ee3be23c4">
+    </UnitTestResult>
+    <UnitTestResult executionId="c1f8664c-391e-496f-ad1a-f80a29844f8a" testId="d2198007-dd4b-62ea-c69c-b93c31011aac" testName="ChangePasswordSuccess_ReturnsView" computerName="JONHAMSHAW-PC" duration="00:00:00.0003028" startTime="2011-06-12T17:25:06.7685945+01:00" endTime="2011-06-12T17:25:06.7725947+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="c1f8664c-391e-496f-ad1a-f80a29844f8a">
+    </UnitTestResult>
+    <UnitTestResult executionId="3d97df14-aa0c-4b2f-ac0c-a5dffdcee17f" testId="d9b5d108-cb78-f85c-3c03-8b7b5fb3fdfd" testName="ChangePassword_Get_ReturnsView" computerName="JONHAMSHAW-PC" duration="00:00:00.0005175" startTime="2011-06-12T17:25:06.7735948+01:00" endTime="2011-06-12T17:25:06.7785951+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="3d97df14-aa0c-4b2f-ac0c-a5dffdcee17f">
+    </UnitTestResult>
+    <UnitTestResult executionId="6fef61ee-847b-488d-814a-da2b12d8afc7" testId="e8db9bbd-f107-7018-b428-a5b6e26ed7fe" testName="ChangePassword_Post_ReturnsRedirectOnSuccess" computerName="JONHAMSHAW-PC" duration="00:00:00.0007527" startTime="2011-06-12T17:25:06.7795951+01:00" endTime="2011-06-12T17:25:06.7865955+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="6fef61ee-847b-488d-814a-da2b12d8afc7">
+    </UnitTestResult>
+    <UnitTestResult executionId="c669a049-6204-4a65-adde-44aaeef7113b" testId="f91eec35-e244-430d-b67d-c860e87f63cd" testName="LogOn_Post_ReturnsRedirectOnSuccess_WithReturnUrl" computerName="JONHAMSHAW-PC" duration="00:00:00.0013109" startTime="2011-06-12T17:25:06.7865955+01:00" endTime="2011-06-12T17:25:06.7925959+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="c669a049-6204-4a65-adde-44aaeef7113b">
+    </UnitTestResult>
+  </Results>
+</TestRun>

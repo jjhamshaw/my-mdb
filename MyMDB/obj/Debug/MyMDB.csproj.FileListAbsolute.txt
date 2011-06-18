@@ -1,0 +1,7 @@
+C:\dev\MyMDB\MyMDB\bin\MyMDB.dll
+C:\dev\MyMDB\MyMDB\bin\MyMDB.pdb
+C:\dev\MyMDB\MyMDB\obj\Debug\ResolveAssemblyReference.cache
+C:\dev\MyMDB\MyMDB\obj\Debug\MyMDB.dll
+C:\dev\MyMDB\MyMDB\obj\Debug\MyMDB.pdb
+C:\dev\MyMDB\MyMDB\bin\Ninject.pdb
+C:\dev\MyMDB\MyMDB\bin\Ninject.xml

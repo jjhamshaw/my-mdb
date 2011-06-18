@@ -1,0 +1,16 @@
+C:\dev\MyMDB\MyMDB.Tests\bin\Debug\MyMDB.Tests.dll.config
+C:\dev\MyMDB\MyMDB.Tests\bin\Debug\MyMDB.Tests.dll
+C:\dev\MyMDB\MyMDB.Tests\bin\Debug\MyMDB.Tests.pdb
+C:\dev\MyMDB\MyMDB.Tests\bin\Debug\MyMDB.dll
+C:\dev\MyMDB\MyMDB.Tests\bin\Debug\MyMDB.pdb
+C:\dev\MyMDB\MyMDB.Tests\obj\Debug\ResolveAssemblyReference.cache
+C:\dev\MyMDB\MyMDB.Tests\obj\Debug\MyMDB.Tests.dll
+C:\dev\MyMDB\MyMDB.Tests\obj\Debug\MyMDB.Tests.pdb
+C:\dev\MyMDB\MyMDB.Tests\bin\Debug\Ninject.dll
+C:\dev\MyMDB\MyMDB.Tests\bin\Debug\Ninject.pdb
+C:\dev\MyMDB\MyMDB.Tests\bin\Debug\Ninject.xml
+C:\dev\MyMDB\MyMDB.Tests\bin\Debug\Moq.dll
+C:\dev\MyMDB\MyMDB.Tests\bin\Debug\nunit.framework.dll
+C:\dev\MyMDB\MyMDB.Tests\bin\Debug\Moq.pdb
+C:\dev\MyMDB\MyMDB.Tests\bin\Debug\Moq.xml
+C:\dev\MyMDB\MyMDB.Tests\bin\Debug\nunit.framework.xml
