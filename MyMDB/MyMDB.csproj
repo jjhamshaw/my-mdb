@@ -72,6 +72,7 @@
     <Compile Include="Controllers\AccountController.cs" />
     <Compile Include="Controllers\FilmsController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
+    <Compile Include="Controllers\SearchController.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
@@ -82,6 +83,7 @@
     <Compile Include="Models\Concrete\FakeFilmsRepository.cs" />
     <Compile Include="Models\Concrete\SqlFilmsRepository.cs" />
     <Compile Include="Models\Entities\Film.cs" />
+    <Compile Include="Models\Entities\SearchQueryData.cs" />
     <Compile Include="Views\Models\FilmsListViewModel.cs" />
     <Compile Include="Views\Models\PagingInfo.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -89,6 +91,7 @@
   <ItemGroup>
     <Content Include="Global.asax" />
     <Content Include="Views\Films\List.aspx" />
+    <Content Include="Views\Search\Index.aspx" />
     <Content Include="Views\Shared\FilmSummary.ascx" />
     <Content Include="Web.config" />
     <Content Include="Web.Debug.config">

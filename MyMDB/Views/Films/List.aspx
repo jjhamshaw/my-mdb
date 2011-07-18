@@ -5,7 +5,7 @@
 </asp:Content>
 
 <asp:Content ContentPlaceHolderID="MainContent" runat="server">
-    <h1 style="color:Fuchsia">Suck on THIS List</h1>
+    <h1 style="color:turquoise">Suck on THIS List</h1>
     <% foreach (var film in Model.Films) {  %>
        <% Html.RenderPartial("FilmSummary", film); %>
     <% } %>

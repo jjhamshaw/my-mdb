@@ -27,7 +27,7 @@ namespace MyMDB
             routes.MapRoute(
                 "Default", // Route name
                 "{controller}/{action}/{id}", // URL with parameters
-                new { controller = "Films", action = "List", id = UrlParameter.Optional } // Parameter defaults
+                new { controller = "Search", action = "Index", id = UrlParameter.Optional } // Parameter defaults
             );
 
         }
